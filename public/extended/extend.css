@@ -1,0 +1,25 @@
+#extended_warrenty_options{
+    width:100%;
+    padding:9px 12px;
+}
+
+#extended_warrenty_options tbody{
+    width:100%;
+}
+
+#extended_warrenty_options input {
+    max-width: 140px;
+}
+
+.remove-warrenty{
+    text-decoration: none;    
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    color: #5935b1;
+    background: #eee;
+    margin-left: 10px;
+}

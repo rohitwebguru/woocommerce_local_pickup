@@ -1,0 +1,148 @@
+ul.nav.checkout-steps {
+    display: none;
+}
+
+.wpmc-nav-button.current { 
+    visibility: visible;
+}
+
+.wpmc-nav-button {    
+    visibility: hidden;
+}
+
+.wpmc-tabs-list.wpmc-3-tabs .wpmc-tab-item {
+    cursor: pointer;
+}
+
+.kvell-order-button {
+    background: #074d56;
+    width:100%;
+    padding:9px 18px;    
+    border-radius:4px;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: normal;    
+    margin:10px auto;
+    color:#fff;
+    cursor: pointer;
+}
+
+.qty {
+    display: block!important;
+}
+
+
+#local-pick-up-map {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 10px;
+}
+#local-pick-up-selected-map {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 10px;
+}
+
+.shipping-method-label{
+    display:none!important;
+}
+
+.woocommerce-shipping-totals.shipping {
+    display: none;
+}
+
+#billing_email_field,.woocommerce-checkout-review-order-table{
+    padding-bottom: 20px;
+    border-bottom:2px dashed black;
+}
+
+#ship-to-different-address{
+    display: none!important;
+}
+
+#kvell_delivery_field .woocommerce-input-wrapper{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#kvell_delivery_field .input-radio{
+    position: relative;
+    top:7px;
+}
+
+#order_review > p.shipping_kvell {display: none;}
+
+.woocommerce-cart .fee{
+    display: none;
+}
+
+#order_comments_field{
+    display: none;
+}
+
+.wizard > .actions {
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+.wizard > .actions > ul {
+    display: inline-block;
+    text-align: right;
+}
+.wizard ul{
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+.wizard > .actions > ul > li {
+    margin: 0 0.5em;
+    float: left;
+}
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+#prevBtn {
+    background-color: #bbbbbb;
+}
+.error{
+    color:red;
+    padding: 10px 0;
+}
+
+.disabled{
+    cursor: none;
+}
+#pickup_location_addresss{
+    width: 100%;	
+}
+#pickup_location_addresss option{
+    display:none;
+}
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    #kvell_delivery_field .woocommerce-input-wrapper{
+        width: 100%;
+        display: inline-table;
+    }
+
+    #wizard #kvell_delivery_field{
+        padding: 0 10px;
+    }
+    #pickup_location_addresss{
+        max-width: 100%;
+        width: 320px;
+        margin: auto;
+    }
+}
+
+#billing_email_field, .woocommerce-checkout-review-order-table{
+    border-bottom: 0px dashed black;
+}
